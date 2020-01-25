@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Suppliers";
+}
+
+<h2>@ViewBag.Title</h2>
+<div class ="navbar">
+    <div class ="navbar-collapse collapse">
+        <ul class ="nav navbar-nav">
+            <li>@Html.ActionLink("Add", "Add", "Supplier")</li>
+            <li>@Html.ActionLink("Update", "Update", "Supplier")</li>
+            <li>@Html.ActionLink("Delete", "Delete", "Supplier")</li>
+            </ul>
+            </div>
+            <!--</div>-->
+            </div>
+            <table class ="table">
+                <thead class ="thead-dark">
+                    <tr>
+                        <th class ="col">#</th>
+                        <th class ="col">Supplier Name</th>
+                        <th class ="col">Address</th>
+                        <th class ="col">City</th>
+                        <th class ="col">Contact</th>
+                        <th class ="col">Email</th>
+                    </tr>
+                </thead>
+                    @foreach (System.Data.DataRow supplier in Model.Rows)
+                    {
+                        <tr>
+                            <td>@supplier["SupplierId"]</td>
+                            <td>@supplier["SupplierName"]</td>
+                            <td>@supplier["Address"]</td>
+                            <td>@supplier["City"]</td>
+                            <td>@supplier["ContactNumber"]</td>
+                            <td>@supplier["Email"]</td>
+                        </tr>
+                    }
+                   </table>
+
+

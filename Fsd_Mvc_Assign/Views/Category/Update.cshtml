@@ -1,0 +1,65 @@
+﻿@using Fsd_Mvc_Assign.Models
+@model Category
+
+@{
+    ViewBag.Title = "Update";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm("Update", "Category"))
+{
+    <div>@Html.HiddenFor(c => c.Id)</div>
+    <div class ="container">
+
+        <div class ="row">
+            <div class ="col-md-2">
+                </div>
+                <div class ="col-md-8">
+
+                    <div class ="row">
+                        <div class ="col-md-3">
+                            @Html.DisplayNameFor(c => c.Code)</div>
+                        <div class ="col">
+                            @Html.EditorFor(c => c.Code, new { htmlAttributes = new { @class = "form-control" } })</div>
+                        </div>
+                        <div class ="row">
+                            <div class ="col-md-3">
+                                @Html.DisplayNameFor(c => c.Name)</div>
+                            <div class ="col">
+                                @Html.EditorFor(c => c.Name, new { htmlAttributes = new { @class = "form-control" } })</div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col-md-3">
+                                    @Html.DisplayNameFor(c => c.Region)</div>
+                                <div class ="col">
+                                    @Html.EditorFor(c => c.Region, new { htmlAttributes = new { @class = "form-control" } })</div>
+                                </div>
+                                <div class ="row">
+                                    <div class ="col-md-3">
+                                        @Html.DisplayNameFor(c => c.Division)</div>
+                                    <div class ="col">
+                                        @Html.EditorFor(c => c.Division, new { htmlAttributes = new { @class = "form-control" } })</div>
+                                    </div>
+                                    <div class ="row">
+                                        <div class ="col-md-3">
+                                            @Html.DisplayNameFor(c => c.SupplierId)</div>
+                                        <div class ="col">
+                                            @Html.DisplayTextFor(c => c.SupplierId)</div>
+                                        </div>
+                                        <div class ="row">
+                                            <div class ="col-md-3">
+                                                @Html.DisplayNameFor(c => c.SupplierName)</div>
+                                            <div class ="col">
+                                                @Html.DisplayTextFor(c => c.SupplierName)</div>
+                                            </div>
+                                            <div class ="row">
+                                                <div class ="col text-right">
+                                                    <input type ="submit" value="Save" class="btn btn-primary" />
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    <div class ="col-md-2">
+                                                        </div>
+                                                        </div>
+                                                        </div>
+}

@@ -1,0 +1,56 @@
+﻿@model List<Fsd_Mvc_Assign.Models.Customer>
+
+@{
+    ViewBag.Title = "Customer List";
+}
+
+<h2>Customer List</h2>
+@using (Html.BeginForm("Index", "Customer"))
+{
+    <div class ="row">
+        <div class ="col-md-3">
+            </div>
+            <div class ="col-md-3">
+                @Html.TextBox("CustId", null, new { @class = "form-control" })</div>
+            <div class ="col-md-2">
+                <button type ="submit" class="btn btn-primary">
+                    Search</button>
+                    @Html.ActionLink("Clear", "Index")
+                    </div>
+                    <div class ="col-md-3">
+                        </div>
+                        </div>
+}
+@if (Model == null || Model.Count == 0)
+{
+    <div class ="text-primary bg-dark">
+        No customers found</div>
+}
+else
+{
+    <table class ="table">
+        <thead>
+            <tr>
+                <th>Cust Id</th>
+                <th>Cust Name</th>
+                <th>Cust Address</th>
+                <th>DoB</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cust in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(cust.CustId, "Update", cust)</td>
+                    <td>@cust.CustName</td>
+                    <td>@cust.CustAddress</td>
+                    <td>@cust.DoB</td>
+                    <td>@cust.Salary</td>
+                </tr>
+            }
+        </tbody>
+        </table>
+}
+
+

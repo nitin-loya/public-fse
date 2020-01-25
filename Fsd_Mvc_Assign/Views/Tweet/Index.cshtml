@@ -1,0 +1,17 @@
+﻿@model Fsd_Mvc_Assign.Entities.Person
+
+@{
+    ViewBag.Title = "Welcome to Tweet Clone";
+}
+
+<h2>Join Tweet Clone Today</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @{Html.RenderPartial("_SignupForm", Model);}
+        </div>
+        <div class="col-md-6">
+            @{Html.RenderPartial("_Login", Model);}
+        </div>
+    </div>
+</div>

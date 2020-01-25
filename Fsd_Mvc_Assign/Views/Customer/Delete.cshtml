@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete Customer</h2>
+<div class ="container">
+    @using (Html.BeginForm("Delete", "Customer"))
+    {
+        <div class ="row">
+            <div class ="col-md-3">
+                </div>
+                <div class ="col-md-4">
+                    @Html.TextBox("CustId", null, new { @class = "form-control" })</div>
+                <div class ="col-md-1">
+                    <button type ="submit" class="btn btn-primary">
+                        Delete</button></div>
+                        <div class ="col-md-3">
+                            </div>
+                            </div>
+    }
+    </div>

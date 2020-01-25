@@ -1,0 +1,58 @@
+﻿@model Fsd_Mvc_Assign.Models.Customer
+
+@{
+    ViewBag.Title = "Insert";
+}
+
+<h2>Insert</h2>
+
+<div class ="container">
+    @using (Html.BeginForm("Create", "Customer"))
+    {
+        <div class ="row">
+            <div class ="col-md-3">
+                </div>
+                <div class ="col-md-6">
+                    <div class ="row">
+                        <div class ="col">
+                            @Html.DisplayNameFor(c => c.CustId)</div>
+                        <div class ="col">
+                            @Html.EditorFor(c => c.CustId, new { htmlAttributes = new { @class = "form-control" } })</div>
+                        </div>
+                        <div class ="row">
+                            <div class ="col">
+                                @Html.DisplayNameFor(c => c.CustName)</div>
+                            <div class ="col">
+                                @Html.EditorFor(c => c.CustName, new { htmlAttributes = new { @class = "form-control" } })</div>
+                            </div>
+                            <div class ="row">
+                                <div class ="col">
+                                    @Html.DisplayNameFor(c => c.CustAddress)</div>
+                                <div class ="col">
+                                    @Html.EditorFor(c => c.CustAddress, new { htmlAttributes = new { @class = "form-control" } })</div>
+                                </div>
+                                <div class ="row">
+                                    <div class ="col">
+                                        @Html.DisplayNameFor(c => c.DoB) (mm/dd/yyyy)</div>
+                                    <div class ="col">
+                                        @Html.EditorFor(c => c.DoB, new { htmlAttributes = new { @class = "form-control" } })</div>
+                                    </div>
+                                    <div class ="row">
+                                        <div class ="col">
+                                            @Html.DisplayNameFor(c => c.Salary)</div>
+                                        <div class ="col">
+                                            @Html.EditorFor(c => c.Salary, new { htmlAttributes = new { @class = "form-control" } })</div>
+                                        </div>
+                                        <div class ="row">
+                                            <div class ="col">
+                                                </div>
+                                                <div class ="col pull-right">
+                                                    <button type ="submit" class="btn btn-primary">
+                                                        Save</button></div>
+                                                        </div>
+                                                        </div>
+                                                        <div class ="col-md-3">
+                                                            </div>
+                                                            </div>
+    }
+    </div>

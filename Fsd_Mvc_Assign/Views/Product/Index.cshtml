@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Products";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class ="navbar">
+    
+    <div class ="navbar-collapse collapse">
+        <ul class ="nav navbar-nav">
+            <li>@Html.ActionLink("Add", "Add", "Supplier")</li>
+            <li>@Html.ActionLink("Update", "Update", "Supplier")</li>
+            <li>@Html.ActionLink("Delete", "Delete", "Supplier")</li>
+    </ul>
+    </div>            
+</div>
+<table class ="table">
+    <thead class ="thead-dark">
+        <tr>
+            <th class ="col">#</th>
+            <th class ="col">Product Name</th>
+            <th class ="col">Supplier</th>
+        </tr>
+        </thead>
+        @foreach (System.Data.DataRow product in Model.Rows)
+        {
+            <tr>
+                <td>@product["ProductId"]</td>
+                <td>@product["ProductName"]</td>
+                <td>@product["Supplier"]</td>
+            </tr>
+        }
+</table>

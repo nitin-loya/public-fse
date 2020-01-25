@@ -1,0 +1,74 @@
+﻿@model Fsd_Mvc_Assign.Models.CategorySearch
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>@ViewBag.Title</h2>
+<div class ="container">
+    @using (Html.BeginForm("Search", "Category"))
+    {
+        <div class ="row">
+            <div class ="col-md-2">
+                @Html.DisplayNameFor(s => s.Criteria.Division)</div>
+            <div class ="col-md-2">
+                @Html.DisplayNameFor(s => s.Criteria.Region)</div>
+            <div class ="col-md-2">
+                @Html.DisplayNameFor(s => s.Criteria.SupplierId)</div>
+            <div class ="col-md-2">
+                @Html.DisplayNameFor(s => s.Criteria.SupplierName)</div>
+            <div class ="col-md-2">
+                @Html.DisplayNameFor(s => s.Criteria.CategoryCode)</div>
+            </div>
+            <div class ="row">
+                <div class ="form-group">
+                    <div class ="col-md-2">
+                        @Html.EditorFor(s => s.Criteria.Division, new { htmlAttributes = new { @class = "form-control" } })</div>
+                    <div class ="col-md-2">
+                        @Html.EditorFor(s => s.Criteria.Region, new { htmlAttributes = new { @class = "form-control" } })</div>
+                    <div class ="col-md-2">
+                        @Html.EditorFor(s => s.Criteria.SupplierId, new { htmlAttributes = new { @class = "form-control" } })</div>
+                    <div class ="col-md-2">
+                        @Html.EditorFor(s => s.Criteria.SupplierName, new { htmlAttributes = new { @class = "form-control" } })</div>
+                    <div class ="col-md-2">
+                        @Html.EditorFor(s => s.Criteria.CategoryCode, new { htmlAttributes = new { @class = "form-control" } })</div>
+                    <div class ="col-md-2">
+                        <button type ="submit" class="btn btn-primary" onclick="">Search</button></div>
+                </div>
+          </div>
+    }
+    </div>
+    @if (Model.CategoryList != null)
+    {
+        if (Model.CategoryList.Count > 0)
+        {
+            <div>
+                <table class ="table">
+                    <thead class ="thead-dark">
+                        <tr>
+                            <th class ="col">Category Code</th>
+                            <th class ="col">Category</th>
+                            <th class ="col">Division</th>
+                            <th class ="col">Region</th>
+                            <th class ="col">Supplier Id</th>
+                            <th class ="col">Supplier Name</th>
+                        </tr>
+                        </thead>
+                        @foreach (var category in Model.CategoryList)
+                        {
+                            <tr>
+                                <td>@Html.ActionLink(@category.Code, "Update", "Category", new { catId = category.Id }, null)</td>
+                                <td>@category.Name</td>
+                                <td>@category.Division</td>
+                                <td>@category.Region</td>
+                                <td>@category.SupplierId</td>
+                                <td>@category.SupplierName</td>
+                            </tr>
+                        }
+                        </table>
+            </div>
+        }
+        else
+        {
+            <div class ="text-danger text-center mt-5">No result found.</div>
+        }
+    }
