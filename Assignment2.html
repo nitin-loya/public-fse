@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script>
+        function showValue() {
+            var rangelbl = document.getElementById("rangeLabel");
+            var age = document.getElementById("age");
+            rangelbl.innerHTML = age.value;
+        }
+    </script>
+
+    <title>02 - HTML Assignment - 2 DOTNET</title>
+</head>
+<body>
+    Number Demo: <input type ="number">
+        <br /><br />
+    Range Demo: <input type ="range" id="age" min="0" max="50" onchange="showValue();" step="10" value="30">
+    <div id="rangeLabel"></div>
+        <br /><br />
+    Color Demo: <input type ="color">
+        <br /><br />
+    Date Demo: <input type ="date">
+        <br /><br />
+    Time Demo: <input type ="time">
+        <br /><br />
+    DateTime local Demo: <input type ="datetime-local">
+        <br /><br />
+    DateTime Demo: <input type ="datetime">
+        <br /><br />
+    Birth Month: <input type ="month">
+        <br /><br />
+    Vacation Week: <input type ="week">
+    <input type ="text" placeholder="Enter Value"><input type ="submit" value="Go!">
+</body>
+</html>

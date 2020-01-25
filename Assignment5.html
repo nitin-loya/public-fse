@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" href="../bootstrap-431/css/bootstrap.min.css">    
+    <style>
+        .nopadding {
+            padding: 0;
+        }
+    </style>    
+    <title>05 - BOOTSTRAP Assignment - 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-xs-12 col-md-10 border nopadding">
+                <!-- PRODUCT form starts here -->
+                <div class="panel">
+                    <div class="panel-title bg-light">
+                        <div class="row">
+                            <h3 class="col-md-4 pl-4">Product</h3>
+                            <nav class="col-md-8 text-right pr-4 pt-2">
+                                <ul class="list-inline text-secondary">
+                                    <li class="list-inline-item"><span class="fa fa-home mr-1"></span>Product List</li>
+                                    <li class="list-inline-item"><span class="fa fa-address-book mr-1"></span>Contact List</li>
+                                    <li class="list-inline-item"><span class="fa fa-user mr-1"></span>About</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <!-- Serach Panel -->
+                        <div class="panel m-3 p-3 border">
+                            <fieldset>
+                                <legend>Search Product</legend>
+                                <div class="form-group form-inline">
+                                    <label for="drpSerachType" class="mr-2">Search by</label>
+                                    <select id="drpSerachType" class="form-control mr-2">
+                                        <option value="" disabled selected>Please Select</option>
+                                        <option value="1">Product Code</option>
+                                        <option value="2">Product Name</option>
+                                        <option value="3">Product Tag</option>
+                                    </select>
+                                    <input type="text" class="form-control" placeholder="Search Text">
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="txtPriceFrom" class="mr-2">Price ($): between</label>
+                                    <input type="number" id="txtPriceFrom" min="1" max="100" value="10" class="form-control mr-2">
+                                    <label for="txtPriceTo" class="mr-2">and</label>
+                                    <input type="number" id="txtPriceTo" min="10" max="500" value="100" class="form-control">
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="dtAvailbleFrom" class="mr-2">First Available: from</label>
+                                    <input type="date" id="dtAvailbleFrom" class="form-control mr-2">
+                                    <label for="dtAvailableTo" class="mr-2">to</label>
+                                    <input type="date" id="dtAvailableTo" class="form-control">
+                                </div>
+                                <div class="form-group form-inline">
+                                    <label for="txtStatus" class="mr-2">Product Status</label>
+                                    <select id="txtStatus" class="form-control mr-2">
+                                        <option value="" disabled selected>Please Select</option>
+                                    </select>
+                                    <input type="button" value="GO" class="btn btn-primary mr-2">
+                                    <input type="button" value="Clear" class="btn">
+                                </div>
+                            </fieldset>
+                        </div>
+                        <!-- Grid Panel -->
+                        <div class="panel">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th><input type="checkbox"></th>
+                                        <th class="bg-light">Product Name <i class="fa fa-sort-down float-right text-secondary"></i></th>
+                                        <th>Category ID<i class="fa fa-sort float-right text-secondary"></i></th>
+                                        <th>Category Name<i class="fa fa-sort float-right text-secondary"></i></th>
+                                        <th>Unit Price ($)<i class="fa fa-sort float-right text-secondary"></i></th>
+                                        <th>Statu<i class="fa fa-sort float-right text-secondary"></i>s</th>
+                                        <th>Available Since<i class="fa fa-sort float-right text-secondary"></i></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td><a href="#">Baking Pan</a></td>
+                                        <td class="text-center">3</td>
+                                        <td>Kitchen</td>
+                                        <td class="text-right">10.99</td>
+                                        <td>Available</td>
+                                        <td class="text-center">10/26/2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td><a href="#">Bath Rug</a></td>
+                                        <td class="text-center">1</td>
+                                        <td>Bath</td>
+                                        <td class="text-right">24.50</td>
+                                        <td>Available</td>
+                                        <td class="text-center">07/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td><a href="#">Blanket</a></td>
+                                        <td class="text-center">2</td>
+                                        <td>Bedding</td>
+                                        <td class="text-right">60.00</td>
+                                        <td>Available</td>
+                                        <td class="text-center">08/22/2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td><a href="#">Knife Set</a></td>
+                                        <td class="text-center">3</td>
+                                        <td>Kitchen</td>
+                                        <td class="text-right">70.00</td>
+                                        <td>Available</td>
+                                        <td class="text-center">10/10/2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="checkbox"></td>
+                                        <td><a href="#">Mattress Protector</a></td>
+                                        <td class="text-center">2</td>
+                                        <td>Bedding</td>
+                                        <td class="text-right">30.40</td>
+                                        <td>Out of Stock</td>
+                                        <td class="text-center">08/22/2013</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="row">
+                                <div class="form-group form-inline col">
+                                    <select name="" id="" class="form-control mr-2">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5" selected>5</option>
+                                    </select>
+                                    <label for="">items per page</label>
+                                </div>
+                                <nav class="col">
+                                    <ul class="pagination justify-content-end">
+                                        <li class="page-item disabled"><a href="" tabindex="-1" class="page-link">&lt;&lt;</a></li>
+                                        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                                        <li class="page-item"><a href="#" class="page-link">>></a></li>
+                                        <li class="page-item disabled"><a href="#" tabindex="-1" class="page-link">1 - 5 displayed, 11 in Total</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="form-group">
+                                <input type="button" class="btn btn-primary mr-2" value="Add Product">
+                                <input type="button" class="btn btn-info" value="Delete Product">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</body>
+</html>

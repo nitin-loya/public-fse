@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
+    <link rel="stylesheet" href="../bootstrap-431/css/bootstrap.min.css">
+    <style>
+        .form-control::-webkit-input-placeholder {
+            color: white;
+        }
+        /* WebKit, Blink, Edge */
+        .form-control:-moz-placeholder {
+            color: white;
+        }
+        /* Mozilla Firefox 4 to 18 */
+        .form-control::-moz-placeholder {
+            color: white;
+        }
+        /* Mozilla Firefox 19+ */
+        .form-control:-ms-input-placeholder {
+            color: white;
+        }
+        /* Internet Explorer 10-11 */
+        .form-control::-ms-input-placeholder {
+            color: white;
+        }
+        /* Microsoft Edge */
+    </style>
+    <title>04 - BOOTSTRAP Assignment - 1</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <div class="container bg-dark p-5">
+                <form action="">
+                    <h5 class="p-3 mb-2 text-center bg-secondary text-white rounded">Sign up</h5>
+                    <div class="form-group">
+                        <label for="txtUserName" class="text-white">Username</label>
+                        <input type="text" id="txtUserName" placeholder="Username" class="form-control bg-secondary text-white">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txtEmail" class="text-white">Email</label>
+                        <input type="email" id="txtEmail" placeholder="Email" class="form-control bg-secondary text-white">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txtPassword" class="text-white">Password</label>
+                        <input type="password" id="txtPassword" placeholder="Password" class="form-control bg-secondary text-white">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txtRePassword" class="text-white">Password</label>
+                        <input type="password" id="txtRePassword" placeholder="Retype Password" class="form-control bg-secondary text-white">
+                    </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="" id=""><span class="text-white ml-2">Accept the terms and policies.</span>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-primary text-uppercase">Sign up</button>
+                    </div>
+                    <hr class="border-light">
+                    <div class="text-white p-2 text-center">Already have an account?</div>
+                    <div class="form-group">
+                        <button class="btn btn-secondary text-uppercase btn-block">sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <script src="../bootstrap-431/js/bootstrap.min.js"></script>
+</body>
+</html>

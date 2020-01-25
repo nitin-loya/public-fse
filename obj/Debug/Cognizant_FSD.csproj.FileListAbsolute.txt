@@ -1,0 +1,68 @@
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.exe
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.exe.config
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.rsp
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csi.exe
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csi.rsp
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.AppContext.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.exe
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.exe.config
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.rsp
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\VBCSCompiler.exe
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.dll.config
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.pdb
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.csprojResolveAssemblyReference.cache
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.dll
+C:\Users\RAM\Desktop\FSD\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.pdb
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.exe
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.exe.config
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csc.rsp
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csi.exe
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\csi.rsp
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.AppContext.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Collections.Immutable.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.IO.FileSystem.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\System.Reflection.Metadata.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.exe
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.exe.config
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\vbc.rsp
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\VBCSCompiler.exe
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\roslyn\VBCSCompiler.exe.config
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.dll.config
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\Cognizant_FSD.pdb
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.dll
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.pdb
+E:\Cognizant FSE\My FSE\Cognizant_FSD\Cognizant_FSD\obj\Debug\Cognizant_FSD.csprojResolveAssemblyReference.cache
